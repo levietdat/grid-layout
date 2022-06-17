@@ -8,45 +8,55 @@
     <title>Grid Layout</title>
   </head>
   <body>
+    <div class="btn">
+        <button class="mobile">MOBILE</button>
+        <button class="tablet">TABLET</button>
+        <button class="pc">PC</button>
+    </div>
     <div class="container">
-      <div class="row">
-        <div class="column col-3">
-          <div class="header">
-            <p>HEADER</p>
-          </div>
-        </div>
-        <div class="column col-9">
-          <div class="menu">
-            <p>MENU</p>
-          </div>
-        </div>
+
+      <div class="header">
+        <p>HEADER</p>
       </div>
-      <div class="hero">
-        <p>HERO</p>
-      </div>
-      
+
 
       <div class="row">
-        <div class="column">
+
+        <div class="column col-3">
             <div class="main">
                 <p>MAIN</p>
-              </div>
+            </div>
         </div>
-        <div class="column">
-            <div class="image">
-                <p>IMAGE</p>
-              </div>
-        
-              <div class="extra">
-                <p>EXTRA</p>
-              </div>
-        </div>
-         
-      </div>
 
-      <div class="banner">
-        <p>BANNER</p>
+        <div class="column col-9">
+            <div class="image">
+                IMAGE
+            </div>
+
+            <div class="extra">
+               EXTRA
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <div class="infor-1">
+                        INFOR-1
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="infor-2">
+                        INFOR-2
+                    </div>
+                </div>
+            </div>
+        </div>
+
       </div>
     </div>
+    <script src="./node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+    <script src="./index.js" type="text/javascript"></script>
+
   </body>
+
 </html>
