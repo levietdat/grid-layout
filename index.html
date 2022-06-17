@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
     <title>Grid Layout</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
+      <div class="row">
+        <div class="column col-3">
+          <div class="header">
             <p>HEADER</p>
+          </div>
         </div>
-
-        <div class="menu">
+        <div class="column col-9">
+          <div class="menu">
             <p>MENU</p>
+          </div>
         </div>
+      </div>
+      <div class="hero">
+        <p>HERO</p>
+      </div>
+      
 
-        <div class="hero">
-            <p>HERO</p>
+      <div class="row">
+        <div class="column">
+            <div class="main">
+                <p>MAIN</p>
+              </div>
         </div>
+        <div class="column">
+            <div class="image">
+                <p>IMAGE</p>
+              </div>
+        
+              <div class="extra">
+                <p>EXTRA</p>
+              </div>
+        </div>
+         
+      </div>
 
-        <div class="main">
-            <p>MAIN</p>
-        </div>
-
-        <div class="image">
-            <p>IMAGE</p>
-        </div>
-
-        <div class="extra">
-            <p>EXTRA</p>
-        </div>
-
-        <div class="banner">
-            <p>BANNER</p>
-        </div>
+      <div class="banner">
+        <p>BANNER</p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
